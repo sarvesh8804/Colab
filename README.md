@@ -14,6 +14,10 @@ Sarvesh Huddar
 
 Vedant Hariyan
 
+![image](https://github.com/user-attachments/assets/48b1713e-e712-43fd-9ca2-6f3a9a0285df)
+
+![image](https://github.com/user-attachments/assets/c6ccd55c-b6eb-47d0-8b44-1e2c34575fb1)
+
 **ER Diagram:**
 
 ![image](https://github.com/user-attachments/assets/1da685bb-7d02-4970-bab4-1aa43408e8b1)
