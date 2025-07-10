@@ -13,7 +13,7 @@ export async function POST(req: Request) {
     // }
 
     // Including editor content as context for chatbot
-    const chatbotPrompt = `You are a helpful AI assistant. The user is working on a document and needs assistance. Below is the document content for reference:\n\n"${editorContent}"\n\nUser: ${message}\nAI:`;
+    const chatbotPrompt = `You are a helpful AI assistant. The user is working on a document and needs assistance. Below is the document content for reference, dont answer to any questions that are not related to the document content:\n\n"${editorContent}"\n\nUser: ${message}\nAI:`;
 
     const result = await model.generateContent(chatbotPrompt);
     const response = await result.response;
